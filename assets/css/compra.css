@@ -1,0 +1,264 @@
+.Cuerpo{
+    background-color: rgb(249, 249, 249);
+}
+ 
+/*INICIO DE BARRA DE NAVEGACIÓN*/
+.co.container-fluid{
+display: flex;
+gap: 1.2rem;
+list-style: none;
+}
+.navbar-brand1{
+    color: white;
+    padding: 0.5rem;
+    position: relative;
+
+}
+.navbar-brand1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all 0.6s ease;
+
+}
+.navbar-brand1::before{
+    bottom: 0;
+    left: 0;
+}
+.navbar-brand1:hover::before{
+    transform: scaleX(1);
+}
+.navbar-brand1:hover{
+    opacity: 0.5;
+
+}
+
+
+.nav2{
+    color: white;
+    padding: 0.5rem;
+    position: relative;
+
+}
+.nav2::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all 0.6s ease;
+
+}
+.nav2::before{
+    bottom: 0;
+    left: 0;
+}
+.nav2:hover::before{
+    transform: scaleX(1);
+}
+.nav2:hover{
+    opacity: 0.5;
+
+}
+
+    
+.nav3{
+    color: white;
+    padding: 0.5rem;
+    position: relative;      
+}
+.nav3::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all 0.6s ease;
+        
+}
+.nav3::before{
+    bottom: 0;
+    left: 0;
+}
+.nav3:hover::before{
+    transform: scaleX(1);
+}
+.nav3:hover{
+    opacity: 0.5;
+        
+}
+
+
+.nav4{
+    color: white;
+    padding: 0.5rem;
+    position: relative;      
+}
+.nav4::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all 0.6s ease;
+        
+}
+.nav4::before{
+    bottom: 0;
+    left: 0;
+}
+.nav4:hover::before{
+    transform: scaleX(1);
+}
+.nav4:hover{
+    opacity: 0.5;
+        
+}
+
+.nav5{
+    color: white;
+    padding: 0.5rem;
+    position: relative;      
+}
+.nav5::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all 0.6s ease;
+        
+}
+.nav5::before{
+    bottom: 0;
+    left: 0;
+}
+.nav5:hover::before{
+    transform: scaleX(1);
+}
+.nav5:hover{
+    opacity: 0.5;
+        
+}
+
+
+
+/* CIERRE DE BARRA DE NAVEGACIÓN*/
+
+.contacto section{
+    margin-top: 20px;
+}
+
+.contacto h2{
+    height: 50px ;
+    border: 1px solid;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contacto p {
+    height: 100px ;
+    border: 1px solid;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    border-radius:10px ;
+}
+
+
+
+.contenedor{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+i{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin: 20px;
+    border-radius: 50%;
+    padding:15px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, .35); 
+    transition: .3s ease; 
+}
+
+.fa-youtube:hover{
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 15px red,
+                0 0 45px red,
+                0 0 75px red,
+                0 0 115px red;
+}
+
+.fa-twitter:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 0 0 15px blue,
+                0 0 45px blue,
+                0 0 75px blue,
+                0 0 115px blue;
+}
+
+.fa-instagram:hover{
+    background-color: orangered;
+    color: white;
+    box-shadow: 0 0 15px orangered,
+                0 0 45px orangered,
+                0 0 75px orangered,
+                0 0 115px orangered;
+}
+
+.fa-google:hover{
+    background-color:rgb(85, 192, 28);
+    color: white;
+    box-shadow: 0 0 15px rgb(85, 192, 28),
+                0 0 45px rgb(85, 192, 28),
+                0 0 75px rgb(85, 192, 28),
+                0 0 115px rgb(85, 192, 28);
+}
+
+/*icono*/
+
+
+.material-symbols-outlined {
+    height: 30px ;
+    border: 2px solid;
+    width: 10%;
+    margin: auto;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+
+
+footer{
+
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+
+}

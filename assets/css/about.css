@@ -1,0 +1,46 @@
+
+body{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    
+  
+}
+
+
+
+.slogan{
+    border: 3px solid #333;
+    border-radius: 7px;
+    height: 500px;
+    width: 800px;
+}
+
+.slogan p{
+    font-size: 30px;
+    color: black;
+}
+
+.bg{
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #59d3e0;  
+}
+
+h3 {
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: rgb(88, 139, 139);
+}
+
+
+footer {
+    
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+  }
