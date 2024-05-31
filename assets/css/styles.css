@@ -1,0 +1,352 @@
+.Cuerpo{
+    background-color: rgb(249, 249, 249);
+}
+
+.co.container-fluid{
+display: flex;
+gap: 1.2rem;
+list-style: none;
+}
+.navbar-brand1{
+    color: white;
+    padding: 0.5rem;
+    position: relative;
+
+}
+.navbar-brand1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all 0.6s ease;
+
+}
+.navbar-brand1::before{
+    bottom: 0;
+    left: 0;
+}
+.navbar-brand1:hover::before{
+    transform: scaleX(1);
+}
+.navbar-brand1:hover{
+    opacity: 0.5;
+
+}
+
+
+.nav2{
+    color: white;
+    padding: 0.5rem;
+    position: relative;
+
+}
+.nav2::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all 0.6s ease;
+
+}
+.nav2::before{
+    bottom: 0;
+    left: 0;
+}
+.nav2:hover::before{
+    transform: scaleX(1);
+}
+.nav2:hover{
+    opacity: 0.5;
+
+}
+
+    
+.nav3{
+    color: white;
+    padding: 0.5rem;
+    position: relative;      
+}
+.nav3::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all 0.6s ease;
+        
+}
+.nav3::before{
+    bottom: 0;
+    left: 0;
+}
+.nav3:hover::before{
+    transform: scaleX(1);
+}
+.nav3:hover{
+    opacity: 0.5;
+        
+}
+
+
+.nav4{
+    color: white;
+    padding: 0.5rem;
+    position: relative;      
+}
+.nav4::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all 0.6s ease;
+        
+}
+.nav4::before{
+    bottom: 0;
+    left: 0;
+}
+.nav4:hover::before{
+    transform: scaleX(1);
+}
+.nav4:hover{
+    opacity: 0.5;
+        
+}
+
+.nav5{
+    color: white;
+    padding: 0.5rem;
+    position: relative;      
+}
+.nav5::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all 0.6s ease;
+        
+}
+.nav5::before{
+    bottom: 0;
+    left: 0;
+}
+.nav5:hover::before{
+    transform: scaleX(1);
+}
+.nav5:hover{
+    opacity: 0.5;
+        
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .vehicle {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+  }
+  
+  .vehicle img {
+    border: 1px solid;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .vehicle h2 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .vehicle p {
+    margin: 10px 0;
+  }
+  
+  .vehicle button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .vehicle button:hover {
+    background-color: #555;
+  }
+  
+ center1{
+    border: 2px solid #151313;
+
+ } 
+
+  h3{
+    width: 300px;
+    margin: 70px;
+    padding: 20px;
+    border: 1px solid #151313;
+    background-color: rgb(249, 250, 251);
+ }
+
+
+  .vehicle2 img{
+    border: 1px solid;
+    width: 101%;
+    margin: auto;
+    border-radius: 5px;
+    height: 100%;
+
+  }
+
+  .vehicle2 h2 {
+
+    margin-top: 50px;
+    font-size: 20px;
+  }
+
+  .vehicle2{
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+  }
+
+  .vehicle2 button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .vehicle2 button:hover {
+    background-color: #555;
+  }
+
+
+
+
+
+  .vehicle3 img{
+    border: 1px solid;
+    width: 101%;
+    margin: auto;
+    border-radius: 5px;
+
+  }
+
+  .vehicle3 h2 {
+
+    margin-top: 50px;
+    font-size: 20px;
+  }
+
+  .vehicle3{
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+  }
+
+  .vehicle3 button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .vehicle3 button:hover {
+    background-color: #555;
+  }
+
+  h5{
+    width: 600px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #151313;
+    background-color: rgb(249, 250, 251);
+ }
+
+ .d-block_w-101{
+  height: 50%;
+  width: 50%;
+  
+
+}
+
+
+.d-block {   /*IMAGEN Q SE MUEVE*/
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  aspect-ratio: 3/2;
+  
+
+}
+
+.btn1{
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #59d3e0; 
+}
+
+.col-md-7{
+  margin:20px;
+  padding: 0%;
+  width: 800px;
+}
+
+.col-md-5 img{
+    border: 1px solid;
+    width: 80%;
+    margin: 5px;
+    border-radius: 5px;
+    height: 90%;
+
+}
+
+footer {
+    
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+
+}
+
+  
